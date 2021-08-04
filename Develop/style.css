@@ -24,9 +24,23 @@ textarea {
 
 .description {
   white-space: pre-wrap;
-  width: 100%;
+  width: 60%;
   height: 100%;
   background-color: grey;
+}
+.event-container{
+  width: 40%;
+  height: 100%;
+  background: grey;
+  border: solid 1px black;
+  padding: 1em;
+  display: flex;
+  flex-wrap:wrap;
+
+}
+.event {
+  width: 50%;
+  font-size: .7em;
 }
 .container {
   display: flex;
@@ -41,6 +55,9 @@ textarea {
   background-color: grey;
   height: 100px;
   order: 2;
+  display:flex;
+  flex-direction: row;
+  width: 35%;
 }
 
 .row {
